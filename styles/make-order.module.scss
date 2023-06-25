@@ -1,0 +1,25 @@
+.order {
+  padding: 50px 0 100px;
+  background-color: #F6F4E8;
+  text-align: center;
+  border: 1px solid #1D3124;
+
+
+  &__title {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
+    color: #1D3124;
+    margin-bottom: 100px;
+    text-align: center;
+
+    @media screen and (min-width: 670px) {
+      font-size: 45px;
+    }
+    
+  }
+}
+
+ 

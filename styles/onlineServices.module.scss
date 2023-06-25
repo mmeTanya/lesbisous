@@ -1,0 +1,47 @@
+.online_service {
+  width: 90vw;
+  min-height: 800px;
+  margin: 90px auto;
+  padding: 50px 30px;
+  background-color: #abb3ba;
+  box-shadow: 8px -6px 16px -2px #8c8c8c;
+
+  @media screen and (min-width: 768px) {
+    margin: 20px auto;
+    width: 80vw;
+  }
+
+  &__text {
+    width: 70%;
+    margin: 0 auto 70px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
+    color: black;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  &__title {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
+    color: black;
+
+    margin-bottom: 50px;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      font-size: 27px;
+    }
+  }
+
+
+}

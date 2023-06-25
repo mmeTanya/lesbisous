@@ -1,0 +1,42 @@
+.welcome {
+  width: 100%;
+  margin: 0 auto 50px;
+  padding: 50px;
+  background-color: #abb3ba;
+  box-shadow: 8px -6px 16px -2px #8c8c8c;
+
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
+    color: blue;
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 23px;
+    }
+  }
+
+
+  &__text {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: black;
+
+    margin-bottom: 30px;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+
+  
+}
+

@@ -1,0 +1,104 @@
+%button {
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-family: Playfair Display, serif;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.animate {
+  @extend %button;
+  color: white;
+  background-color: #92a2ad;
+
+  font-weight: 500;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  width: 200px;
+  height: 50px;
+
+  animation: animate 3000ms infinite;
+
+  &:hover,
+  &:focus {
+    background-color: #3335b0;
+  }
+}
+
+
+.no_animate {
+  @extend %button;
+  color: white;
+  background-color: #92a2ad;
+
+  font-weight: 500;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  width: 200px;
+  height: 50px;
+
+  &:hover,
+  &:focus {
+    background-color: #3335b0;
+  }
+}
+
+.active {
+  @extend %button;
+  color: white;
+  background-color: #E59560;
+
+  font-weight: 500;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  width: 200px;
+  height: 50px;
+}
+
+.active_animate {
+  @extend %button;
+  color: white;
+  background-color: #E59560;
+
+  font-weight: 500;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  width: 200px;
+  height: 50px;
+  animation: animate_2 3000ms infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes animate_2 {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

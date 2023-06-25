@@ -1,0 +1,14 @@
+.overlay_2 {
+  background-color: transparent;
+  position: relative;
+
+  &__image {
+    width: 70vw;
+
+    @media screen and (min-width: 900px) {
+      width: 57vw;
+    }
+  }
+
+}
+
