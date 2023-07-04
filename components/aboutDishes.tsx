@@ -52,7 +52,7 @@ const About = () => {
         {status === Status.PENDING && <Loader />}
       {status === Status.RESOLVED && <div className={s.gallery}>
         {images && images.map(item => 
-          <img   key={uuidv1()} className={s.clipped_img} src={item.src} alt='image' id="clipped"/>
+          <img key={uuidv1()} className={s.clipped_img} src={item.src} alt='image' id="clipped"/>
         )}
         </div>
       }
