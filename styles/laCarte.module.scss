@@ -1,0 +1,93 @@
+.laCarte {
+  width: 90vw;
+  min-height: 1000px;
+  margin: 90px auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  @media screen and (min-width: 768px) {
+    margin: 20px auto;
+    width: 80vw;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 50px 30px;
+  }
+
+
+  &__title {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
+    color: #eeded2;
+    text-align: center;
+
+    margin: 30px auto;
+
+    @media screen and (min-width: 768px) {
+      font-size: 27px;
+      margin-bottom: 50px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 35px;
+    }
+  }
+}
+
+.dishes {
+  width: 100%;
+
+  &__list {
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    width: 100%;
+  }
+
+  &__text {
+    width: 80%;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.9;
+    letter-spacing: 0.02em;
+    color: white;
+    margin-bottom: 30px;
+
+
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 21px;
+    }
+  }
+
+  &__price {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.9;
+    letter-spacing: 0.02em;
+    color: white;
+    margin-bottom: 30px;
+
+
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 21px;
+    }
+  }
+}

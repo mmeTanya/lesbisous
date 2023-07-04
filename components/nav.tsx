@@ -5,7 +5,7 @@ import s from "../styles/header.module.scss";
 const NavLinks = [
   { id: 1, title: "ACCUEIL", path: "/" },
   { id: 2, title: "LA CARTE", path: "/carte" },
-  { id: 3, title: "LES AVIS", path: "/avis" },
+  { id: 3, title: "L'ADRESSE", path: "/adresse" },
 ];
 
 const Nav = () => {
@@ -13,18 +13,18 @@ const Nav = () => {
 
   return (
     <div className={s.container}>
-      <ul className={s.join_us__social_list}>
-              <li className={s.join_us__social_item}>
-                <a className={s.join_us__instagram} href="https://www.instagram.com/" />
+      <ul className={s.social_list}>
+              <li className={s.social_list__social_item}>
+                <a className={s.social_list__instagram} href="https://www.instagram.com/" />
               </li>
-              <li className={s.join_us__social_item}>
-                <a className={s.join_us__twitter} href="https://twitter.com/" />
+              <li className={s.social_list__social_item}>
+                <a className={s.social_list__twitter} href="https://twitter.com/" />
               </li>
-              <li className={s.join_us__social_item}>
-                <a className={s.join_us__facebook} href="https://www.facebook.com/" />
+              <li className={s.social_list__social_item}>
+                <a className={s.social_list__facebook} href="https://www.facebook.com/" />
               </li>
-              <li className={s.join_us__social_item}>
-                <a className={s.join_us__linkedin} href="https://www.linkedin.com/" />
+              <li className={s.social_list__social_item}>
+                <a className={s.social_list__linkedin} href="https://www.linkedin.com/" />
               </li>
             </ul>
       <nav className={s.nav}>

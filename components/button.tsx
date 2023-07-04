@@ -15,6 +15,9 @@ const getStyledButton = theme => {
       case 'active_animate':
       className = s.active_animate
       return
+      case 'reserve':
+      className = s.reserve
+      return
     default:
       return {};
   }

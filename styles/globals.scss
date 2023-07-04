@@ -1,15 +1,17 @@
 body {
   color: rgb(255, 255, 255);
-  background: #70046e; 
-background: -webkit-linear-gradient(to right, #70046e, #75350b); 
-background: linear-gradient(to right, #70046e, #75350b); 
+  background: #70046e;
+  background: -webkit-linear-gradient(to right, #70046e, #75350b);
+  background: linear-gradient(to right, #70046e, #75350b);
   padding: 0;
   margin: 0;
-  font-family: /* 'Dancing Script', cursive,  */'Playfair Display', serif;
+  font-family:
+    /* 'Dancing Script', cursive,  */
+    'Playfair Display', serif;
   font-size: 14px;
   overflow-x: hidden;
 }
- 
+
 
 h1,
 h2,
@@ -100,4 +102,3 @@ select {
     2.5em 2.5em;
   background-repeat: no-repeat;
 }
-

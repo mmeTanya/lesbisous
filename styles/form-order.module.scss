@@ -2,9 +2,8 @@
   width: 90%;
   margin: 0 auto 70px;
   padding: 50px;
-  box-shadow: 8px -6px 16px -2px #8c8c8c;
-  overflow-x: hidden ;
-  
+  overflow-x: hidden;
+
   @media screen and (max-width: 768px) {
     padding: 30px 10px;
   }
@@ -13,7 +12,7 @@
     position: relative;
     width: 90%;
     max-width: 400px;
-    margin: 0 auto 50px;
+    margin: 0 auto 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +22,7 @@
     position: absolute;
     top: -25px;
     left: 5%;
-    color: #1D3124;
+    color: black;
     font-size: 16px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -133,17 +132,17 @@
     position: absolute;
     bottom: -20px;
     left: 5%;
-    color: red;
+    color: white;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
 
     display: block;
-   
+
   }
 
   &__button {
     text-align: center;
-    margin: 50px 0  0;
+    margin: 50px 0 0;
   }
 }

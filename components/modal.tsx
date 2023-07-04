@@ -35,7 +35,7 @@ const Modal = ({ onClose }) => {
     <div className={s.backdrop} onClick={handleBackdropClick}>
       <div className={s.modal}>
         <ButtonCircle theme={'close'} type={'button'} onClick={handleButtonClick} />
-        <p className={s.modal__title}>Leave your details, we will call you back</p>
+        <p className={s.modal__title}>Laissez vos coordonnées, nous vous rappellerons</p>
         <Form onClose={onClose} />
       </div>
     </div>

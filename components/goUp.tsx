@@ -10,7 +10,7 @@ const GoUp = () => {
   }, []);
 
   const scrollFunction = () => {
-    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
       setShowButton(true)
     } else {
       setShowButton(false)

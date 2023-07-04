@@ -129,7 +129,7 @@ const Form = () => {
     <form className={s.form_info} onSubmit={handleSubmit} autoComplete="off">
       <div className={s.form_info__form_field}>
         <label className={s.form_info__label} htmlFor="name">
-        Ім`я
+       Nom
         </label>
         <input
           className={errorsSubmit.name === 'required' || errorsSubmit.name === 'wrong' ? s.form_info__input_red : s.form_info__input}
@@ -139,12 +139,12 @@ const Form = () => {
           value={name}
           onChange={handleChange}
         />
-        {errorsSubmit.name === 'required' && <p className={s.form_info__error}>Напишіть ім`я</p>}
-        {errorsSubmit.name === 'wrong' && <p className={s.form_info__error}>Wrong name</p>}
+        {errorsSubmit.name === 'required' && <p className={s.form_info__error}>Écris le nom</p>}
+        {errorsSubmit.name === 'wrong' && <p className={s.form_info__error}>Mauvais nom</p>}
       </div>
       <div className={s.form_info__form_field}>
         <label className={s.form_info__label} htmlFor="tel">
-        Телефон
+        Téléphone
         </label>
         <input
           className={errorsSubmit.phone === 'required' || errorsSubmit.phone === 'wrong' ? s.form_info__input_red : s.form_info__input}
@@ -154,12 +154,12 @@ const Form = () => {
           value={phone}
           onChange={handleChange}
         />
-        {errorsSubmit.phone === 'required' && <p className={s.form_info__error}>Напишіть телефон</p>}
-        {errorsSubmit.phone === 'wrong' && <p className={s.form_info__error}>Wrong phone</p>}
+        {errorsSubmit.phone === 'required' && <p className={s.form_info__error}>Écrivez votre numéro de téléphone</p>}
+        {errorsSubmit.phone === 'wrong' && <p className={s.form_info__error}>Mauvais téléphone</p>}
       </div>
       <div className={s.form_info__form_field}>
         <label className={s.form_info__label} htmlFor="email">
-        Електронна пошта
+        E-mail
         </label>
         <input
           className={errorsSubmit.email === 'required' || errorsSubmit.email === 'wrong' ? s.form_info__input_red : s.form_info__input}
@@ -169,26 +169,26 @@ const Form = () => {
           value={email}
           onChange={handleChange}
         />
-        {errorsSubmit.email === 'required' && <p className={s.form_info__error}>Напишіть електронну пошту</p>}
-        {errorsSubmit.email === 'wrong' && <p className={s.form_info__error}>Wrong email</p>}
+        {errorsSubmit.email === 'required' && <p className={s.form_info__error}>Écrire un e-mail</p>}
+        {errorsSubmit.email === 'wrong' && <p className={s.form_info__error}>Mauvaise adresse mail</p>}
       </div>
       <div className={s.form_info__form_field}>
         <label className={s.form_info__label} htmlFor="comments">
-        Текст
+        Texte
         </label>
         <textarea
           className={errorsSubmit.comments === 'required' || errorsSubmit.comments === 'wrong' ? s.form_info__comments_red : s.form_info__comments}
           name="comments"
           id="comments"
-          placeholder="Напишіть текст"
+          placeholder="Ecrire le texte"
           value={comments}
           onChange={handleChange}
         >
         </textarea>
-        {errorsSubmit.comments === 'required' && <p className={s.form_info__error}>Напишіть текст</p>}
+        {errorsSubmit.comments === 'required' && <p className={s.form_info__error}>Ecrire le texte</p>}
       </div>
       <div className={s.form_info__button}>
-        <Button theme={'no_animate'} type={'submit'} text={'Надіслати'} />
+        <Button theme={'no_animate'} type={'submit'} text={'Envoyer'} />
       </div>
     </form>
   );

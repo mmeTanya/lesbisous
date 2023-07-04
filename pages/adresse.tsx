@@ -1,14 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/header'
-import Hero from '../components/hero'
-import Footer from '../components/footer'
+import Logo from "../components/logo";
+import Contacts from "../components/contacts";
 import GoUp from '../components/goUp'
-import Gallery from '@/components/gallery'
-import About from '@/components/aboutDishes'
 
 
-const Home: NextPage = () => {
+const Carte: NextPage = () => {
 
   return (
     <div>
@@ -20,17 +18,13 @@ const Home: NextPage = () => {
         <main>
           <Header />
           <div className='container'>
-          <Hero />
-          <Gallery />
-          <About />
+          <Logo/>
+          <Contacts/>
           </div>
         </main>
-        <footer>
-          <Footer />
-        </footer>
       <GoUp />
     </div>
   )
 }
 
-export default Home
+export default Carte

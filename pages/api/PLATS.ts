@@ -8,8 +8,8 @@ export default async function handler(
 ) {
     let { db } = await connectToDatabase()
 
-    const donation = await db.collection('donation').find().sort({ dateInFormat: - 1 }).toArray()
+    const dishes = await db.collection('PLATS').find().toArray()
 
-    res.status(200).json({ donation })
+    res.status(200).json({ dishes })
 
 }

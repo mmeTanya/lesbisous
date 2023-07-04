@@ -29,11 +29,10 @@
   }
 }
 
-
 .no_animate {
   @extend %button;
   color: white;
-  background-color: #92a2ad;
+  background-color: #70046e;
 
   font-weight: 500;
   line-height: 1.87;
@@ -44,7 +43,7 @@
 
   &:hover,
   &:focus {
-    background-color: #3335b0;
+    background-color: #75350b;
   }
 }
 
@@ -73,6 +72,29 @@
   width: 200px;
   height: 50px;
   animation: animate_2 3000ms infinite;
+}
+
+.reserve {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.175;
+  letter-spacing: 0.02em;
+  color: black;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+  }
+
+  
+
+  &:hover,
+  &:focus {
+    color:#E59560
+  }
 }
 
 @keyframes animate {
