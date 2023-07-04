@@ -20,15 +20,15 @@ const Hero = () => {
 
   return (
     <section className={s.hero}>
-      <Logo/>
+      <Logo />
       <div className={s.hero__overlay}>
         <img src='/restorante.jpg' alt='image' className={s.hero__img} />
         <div className={s.hero__link_overlay}>
-        <Button  theme={'reserve'} className={s.hero__link} onClick={handleOpenModal} type={'button'} text={'Réservez maintenant'} />
-        {showModal && <ClientOnlyPortal selector="#modal"><Modal onClose={handleCloseModal} /></ClientOnlyPortal>}
-        </div> 
+          <Button theme={'reserve'} className={s.hero__link} onClick={handleOpenModal} type={'button'} text={'Réservez maintenant'} />
+          {showModal && <ClientOnlyPortal selector="#modal"><Modal onClose={handleCloseModal} /></ClientOnlyPortal>}
+        </div>
       </div>
-     <p className={s.hero__text}>Les bisous est un élégant restaurant gastronomique qui met l'accent sur les aliments naturels et durables, provenant des agriculteurs et producteurs alimentaires les plus dévoués de La France. Nous créons des plats magnifiquement élaborés, recherchant le meilleur des produits britanniques, avec une passion pour ravir et partager notre curiosité et notre amour de la délicieuse cuisine artisanale.</p>
+      <p className={s.hero__text}>Les bisous est un élégant restaurant gastronomique qui met l'accent sur les aliments naturels et durables, provenant des agriculteurs et producteurs alimentaires les plus dévoués de La France. Nous créons des plats magnifiquement élaborés, recherchant le meilleur des produits britanniques, avec une passion pour ravir et partager notre curiosité et notre amour de la délicieuse cuisine artisanale.</p>
     </section>
   );
 };

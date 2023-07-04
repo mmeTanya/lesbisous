@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { v1 as uuidv1 } from 'uuid';
 import Loader from '../components/loader';
-import {Bounce } from "react-awesome-reveal"
+import { Bounce } from "react-awesome-reveal"
 import s from "../styles/gallery.module.scss";
 
 const Status = {
@@ -45,10 +45,10 @@ const Gallery = () => {
       </h1>
       {status === Status.PENDING && <Loader />}
       {status === Status.RESOLVED && <div className={s.gallery__list}>
-        {images && images.map(item => 
-        <Bounce key={uuidv1()} className={s.gallery__item}>
-          <img src={item.src} alt='image' className={s.gallery__img} />
-        </Bounce>
+        {images && images.map(item =>
+          <Bounce key={uuidv1()} className={s.gallery__item}>
+            <img src={item.src} alt='image' className={s.gallery__img} />
+          </Bounce>
         )}
       </div>
       }

@@ -41,11 +41,11 @@ const Plats = () => {
     <section className={s.dishes}>
       {status === Status.PENDING && <Loader />}
       {status === Status.RESOLVED && <div className={s.dishes__list}>
-        {dishes && dishes.map(item => 
-        <div key={uuidv1()} className={s.dishes__item}>
-          <p className={s.dishes__text} >{item.p}</p>
-          <p className={s.dishes__price} >{item.price}</p>
-        </div>
+        {dishes && dishes.map(item =>
+          <div key={uuidv1()} className={s.dishes__item}>
+            <p className={s.dishes__text} >{item.p}</p>
+            <p className={s.dishes__price} >{item.price}</p>
+          </div>
         )}
       </div>
       }

@@ -2,13 +2,14 @@ import { RotatingLines } from 'react-loader-spinner';
 
 const Loader = () => {
   const styles = {
-   div: {
+    div: {
       display: 'flex',
-   }}
+    }
+  }
 
   return (
     <div style={styles.div}>
-      <RotatingLines strokeColor="grey"  width="30" />
+      <RotatingLines strokeColor="grey" width="30" />
     </div>
   );
 };

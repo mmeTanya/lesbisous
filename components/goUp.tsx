@@ -17,13 +17,13 @@ const GoUp = () => {
     }
   }
 
-  const onClick =  () => {
+  const onClick = () => {
     window.scroll({
       left: 0,
       top: 0,
       behavior: 'smooth'
     });
-      }
+  }
 
   return (
     <div className="goUp">

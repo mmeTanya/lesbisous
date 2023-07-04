@@ -14,19 +14,19 @@ const Nav = () => {
   return (
     <div className={s.container}>
       <ul className={s.social_list}>
-              <li className={s.social_list__social_item}>
-                <a className={s.social_list__instagram} href="https://www.instagram.com/" />
-              </li>
-              <li className={s.social_list__social_item}>
-                <a className={s.social_list__twitter} href="https://twitter.com/" />
-              </li>
-              <li className={s.social_list__social_item}>
-                <a className={s.social_list__facebook} href="https://www.facebook.com/" />
-              </li>
-              <li className={s.social_list__social_item}>
-                <a className={s.social_list__linkedin} href="https://www.linkedin.com/" />
-              </li>
-            </ul>
+        <li className={s.social_list__social_item}>
+          <a className={s.social_list__instagram} href="https://www.instagram.com/" />
+        </li>
+        <li className={s.social_list__social_item}>
+          <a className={s.social_list__twitter} href="https://twitter.com/" />
+        </li>
+        <li className={s.social_list__social_item}>
+          <a className={s.social_list__facebook} href="https://www.facebook.com/" />
+        </li>
+        <li className={s.social_list__social_item}>
+          <a className={s.social_list__linkedin} href="https://www.linkedin.com/" />
+        </li>
+      </ul>
       <nav className={s.nav}>
         <ul className={s.nav__list}>
           {NavLinks.map((NavLink) => (
