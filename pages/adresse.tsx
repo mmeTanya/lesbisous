@@ -11,17 +11,17 @@ const Carte: NextPage = () => {
   return (
     <div>
       <Head>
-      <title>Les Bisous</title>
+        <title>Les Bisous</title>
         <meta name="description" content="Les Bisous" />
         <link rel="icon" href="/kisses.png" />
       </Head>
-        <main>
-          <Header />
-          <div className='container'>
-          <Logo/>
-          <Contacts/>
-          </div>
-        </main>
+      <main>
+        <Header />
+        <div className='container'>
+          <Logo />
+          <Contacts />
+        </div>
+      </main>
       <GoUp />
     </div>
   )
