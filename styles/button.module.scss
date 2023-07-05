@@ -37,9 +37,10 @@
   font-weight: 500;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  font-size: 16px;
 
-  width: 200px;
-  height: 50px;
+  width: 150px;
+  height: 30px;
 
   &:hover,
   &:focus {
@@ -89,11 +90,11 @@
     font-size: 25px;
   }
 
-  
+
 
   &:hover,
   &:focus {
-    color:#E59560
+    color: #E59560
   }
 }
 

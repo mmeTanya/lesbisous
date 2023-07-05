@@ -1,22 +1,22 @@
 .contacts {
-  padding: 70px 0;
+  padding: 70px 30px;
   text-align: center;
 
   &__overlay {
-      display: block;
-      margin: 50px auto;
+    display: block;
+    margin: 50px auto;
   }
 
   &__title_paragraf {
-      font-size: 23px;
-      line-height: 1.17;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin: 70px auto 50px;
+    font-size: 23px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 70px auto 50px;
   }
 
   &__text {
-      font-size: 14px;
-      margin-bottom: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
   }
 }

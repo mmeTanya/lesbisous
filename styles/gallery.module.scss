@@ -29,7 +29,7 @@
     transform: rotate(0);
 
     &:hover,
-    &:focus{
+    &:focus {
       animation: rotate 1s 1;
     }
 
@@ -94,19 +94,23 @@
 }
 
 @keyframes rotate {
-  0%{
+  0% {
     transform: rotate(30deg);
   }
-  20%{
+
+  20% {
     transform: rotate(-30deg);
   }
-  50%{
+
+  50% {
     transform: rotate(15deg);
   }
-  75%{
+
+  75% {
     transform: rotate(-15deg);
   }
-  100%{
+
+  100% {
     transform: rotate(5deg);
   }
 }

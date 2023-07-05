@@ -46,7 +46,7 @@ const About = () => {
 
   return (
     <section className={s.about}>
-      <Fade delay={1000} cascade damping={1e-1} triggerOnce={true} duration={500} style={divStyle} className={s.about__text}>
+      <Fade delay={1000} cascade damping={1e-1} triggerOnce={true} duration={300} style={divStyle} className={s.about__text}>
         Nos aliments dépendent fortement des produits locaux. Les pommes fraîches, les baies, les haricots verts, les poireaux, les champignons, diverses courges et les fruits à noyau font partie des produits les plus couramment utilisés. La volaille, le bœuf, l'agneau et le veau sont facilement disponibles toute l'année. La viande de gibier est particulièrement appréciée et abondante pendant la saison de chasse qui s'étend du début de l'automne à février. Peu importe la région, la France regorge de fromages et de vins artisanaux.
       </Fade>
       {status === Status.PENDING && <Loader />}

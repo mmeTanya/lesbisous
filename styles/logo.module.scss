@@ -3,95 +3,95 @@
   display: inline-block;
   width: 150px;
   height: 30px;
-  margin: 200px 50px 100px;
+  margin: 200px 50px 50px;
 
   @media screen and (min-width: 768px) {
     width: 150px;
     height: 30px;
-    margin: 200px 200px 100px;
+    margin: 200px 200px 50px;
   }
 
   @media screen and (min-width: 1200px) {
     width: 250px;
     height: 60px;
-    margin: 200px 300px 100px;
+    margin: 200px 300px 50px;
   }
 
 
-&__title {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 1.175;
-  letter-spacing: 0.02em;
+  &__title {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
 
-  text-align: center;
-  color: #efc19e;
-  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 50%,
-      #000 70%, rgba(0, 0, 0, .6) 100%);
-  -webkit-mask-size: 200%;
-  animation: shine 3s linear infinite;
+    text-align: center;
+    color: #efc19e;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 50%,
+        #000 70%, rgba(0, 0, 0, .6) 100%);
+    -webkit-mask-size: 200%;
+    animation: shine 3s linear infinite;
 
-  @media screen and (min-width: 768px) {
-    font-size: 30px;
+    @media screen and (min-width: 768px) {
+      font-size: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 50px;
+    }
+
   }
 
-  @media screen and (min-width: 1200px) {
-    font-size: 50px;
-  }
-
-}
-
-&__img {
-  position: absolute;
-  z-index: 1;
-  bottom: -30px;
-  right: -30px;
-  width: 80px;
-  height: 80px;
-
-
-  @media screen and (min-width: 1200px) {
+  &__img {
+    position: absolute;
+    z-index: 1;
     bottom: -30px;
-    right: -50px;
-    width: 100px;
-    height: 100px;
-  }
-}
+    right: -30px;
+    width: 80px;
+    height: 80px;
 
-  &__welcome{
-      position: absolute;
-      z-index: 2;
-      bottom: -59px;
-      right: -70px;
-      font-family: Playfair Display;
-      font-weight: 500;
-      font-size: 12px;
-      line-height: 1.175;
-      letter-spacing: 0.02em;
-      color: #cdc5c0cc;
-      margin-bottom: 20px;
-      text-align: center;
-  
-  
-      @media screen and (min-width: 768px) {
-        font-size: 21px;
-        bottom: -90px;
-        right: -250px;
-      }
-  
-      @media screen and (min-width: 1200px) {
-        font-size: 30px;
-        bottom: -100px;
-        right: -250px;
-      }
+
+    @media screen and (min-width: 1200px) {
+      bottom: -30px;
+      right: -50px;
+      width: 100px;
+      height: 100px;
     }
   }
+
+  &__welcome {
+    position: absolute;
+    z-index: 2;
+    bottom: -59px;
+    right: -70px;
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
+    color: #cdc5c0cc;
+    margin-bottom: 20px;
+    text-align: center;
+
+
+    @media screen and (min-width: 768px) {
+      font-size: 21px;
+      bottom: -90px;
+      right: -250px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 30px;
+      bottom: -100px;
+      right: -250px;
+    }
+  }
+}
 
 
 @keyframes animate {

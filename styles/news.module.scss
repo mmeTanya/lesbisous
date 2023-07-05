@@ -2,7 +2,7 @@
   width: 90vw;
   margin: 10px auto;
   background-color: transparent;
-  
+
   &__title {
     font-family: Playfair Display;
     font-weight: 700;
@@ -24,8 +24,8 @@
   background-color: #abb3ba;
   box-shadow: 8px -6px 16px -2px #8c8c8c;
   overflow-y: scroll;
-  overflow-x: hidden ;
-  
+  overflow-x: hidden;
+
 
   @media screen and (max-width: 768px) {
     padding: 20px 10px;
@@ -106,13 +106,14 @@
       margin-bottom: 10px;
     }
   }
+
   &__link {
     font-family: Playfair Display;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.175;
     letter-spacing: 0.02em;
-    color: #E59560 ;
+    color: #E59560;
     margin-bottom: 20px;
 
 
@@ -142,10 +143,10 @@
 }
 
 .news_item::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 .news_item::-webkit-scrollbar-thumb {
-background-color: #92a2ad;
-border-radius: 4px;
+  background-color: #92a2ad;
+  border-radius: 4px;
 }
