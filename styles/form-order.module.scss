@@ -1,6 +1,6 @@
 .form_info {
   width: 90%;
-  margin: 0 auto 50px;
+  margin: 0 auto;
   padding: 30px 50px;
   overflow-x: hidden;
 
@@ -17,6 +17,17 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  &__form_field_comments {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 
   &__label {
     position: absolute;
@@ -127,6 +138,5 @@
 
   &__button {
     text-align: center;
-    margin: 50px 0 0;
   }
 }

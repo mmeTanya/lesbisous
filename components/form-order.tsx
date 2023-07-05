@@ -172,7 +172,7 @@ const Form = () => {
         {errorsSubmit.email === 'required' && <p className={s.form_info__error}>Écrire un e-mail</p>}
         {errorsSubmit.email === 'wrong' && <p className={s.form_info__error}>Mauvaise adresse mail</p>}
       </div>
-      <div className={s.form_info__form_field}>
+      <div className={s.form_info__form_field_comments}>
         <label className={s.form_info__label} htmlFor="comments">
           Texte
         </label>
